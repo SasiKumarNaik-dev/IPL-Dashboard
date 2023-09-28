@@ -1,0 +1,78 @@
+/* Write your CSS here */
+
+.match-details-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Bree Serif';
+}
+.details-Loading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-height: 100vh;
+}
+.banner-img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.RCB {
+  background-image: linear-gradient(to top, #0f172a, #1e293b 5%, #a4261d 90%);
+}
+.CSK {
+  background-color: #f7db00;
+}
+.KKR {
+  background-color: #3a225d;
+}
+.KXP {
+  background-color: #d91c1f;
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #13418b);
+}
+.MI {
+  background-color: #004b8d;
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #000000);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #13418b 60%, #d91c1f);
+}
+
+.teams-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.lt-text {
+  align-self: flex-start;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 576px) {
+  .details-body {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+  .details-body {
+    width: 85%;
+  }
+}
